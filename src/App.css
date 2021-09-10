@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+ul > li:before, ol > li:before
+{
+	content:"*  ";
+}
+
+
+.bg-color {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  color: chocolate;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+}
